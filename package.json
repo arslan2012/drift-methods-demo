@@ -1,0 +1,24 @@
+{
+  "name": "drift-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@drift-labs/sdk": "2.54.0-beta.3",
+    "@solana/spl-token": "^0.3.10",
+    "@solana/web3.js": "^1.88.0",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
