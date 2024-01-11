@@ -72,7 +72,7 @@ await driftClient.deposit(
 
 - 第二个参数是通过SDK内置的`SpotMarkets`数组指定市场的索引。
 
-- 第三个参数是你的钱包公钥，用以身份认证。
+- 第三个参数是关联的代币帐户，你可以使用`driftClient.getAssociatedTokenAccount`获得。或者直接用钱包公钥代表SOL。
 
 ## withdraw
 
